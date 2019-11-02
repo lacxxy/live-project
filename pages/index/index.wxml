@@ -10,8 +10,11 @@
     </view>
   </view>
 
-  <mymap latitude='{{latitude}}' longitude='{{longitude}}'      scale='{{scale}}'>
+  <mymap latitude='{{latitude}}' longitude='{{longitude}}' scale='{{scale}}'>
   </mymap>
 
-  <button>寻找商圈</button>
+  <view class="btn">
+    <button bindtap="findHot">找人气</button>
+    <button bindtap="findCloth">找服饰</button>
+  </view>
 </view>
