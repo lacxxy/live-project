@@ -1,13 +1,17 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class="index">
+  <view class="head">
+    <view class="head-side">
+      <text>2019/11/01</text>
+      <text>星期五</text>
+    </view>
+    <view class="head-side">
+      <text>福州市|多云</text>
+      <text style="text-align:end">23℃</text>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+
+  <mymap latitude='{{latitude}}' longitude='{{longitude}}'      scale='{{scale}}'>
+  </mymap>
+
+  <button>寻找商圈</button>
 </view>
