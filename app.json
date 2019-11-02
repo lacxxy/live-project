@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/rest/rest",
+    "pages/food/food",
+    "pages/cloth/cloth"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/index.png",
+        "selectedIconPath": "/assets/index.png"
+      },
+      {
+        "pagePath": "pages/rest/rest",
+        "text": "餐厅",
+        "iconPath": "/assets/rest.png",
+        "selectedIconPath": "/assets/rest.png"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "text": "美食",
+        "iconPath": "/assets/food.png",
+        "selectedIconPath": "/assets/food.png"
+      },
+      {
+        "pagePath": "pages/cloth/cloth",
+        "text": "服饰",
+        "iconPath": "/assets/cloth.png",
+        "selectedIconPath": "/assets/cloth.png"
+      }
+    ]
+  }
+}
