@@ -1,0 +1,1 @@
+<map class='mymap' latitude='{{latitude}}' longitude='{{longitude}}' scale='{{scale}}'/>
