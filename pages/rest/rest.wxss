@@ -1,1 +1,71 @@
-/* pages/rest/rest.wxss */
+.head{
+  width:100%;
+  height: 200rpx;
+  font-size:60rpx;
+  text-align: center;
+  line-height: 200rpx;
+  color: white;
+  background-color: black;
+}
+.head-title{
+    width: 100%;
+    height: 100rpx;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: azure;
+}
+.title{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    line-height: 100rpx;
+}
+
+.food-rank{
+  width: 100%;
+  height: 500rpx;
+  background-color: azure;
+}
+.food{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: rgb(238,236, 237);
+}
+.food1{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: rgb(238,236, 247);
+}
+.rank{
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  line-height: 100rpx;
+}
+.dian{
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  line-height: 100rpx;
+}
+.el{
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  line-height: 100rpx;
+}
+.price{
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  line-height: 100rpx;
+}

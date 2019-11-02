@@ -1,2 +1,50 @@
-<!--pages/rest/rest.wxml-->
-<text>pages/rest/rest.wxml</text>
+<view class="head">
+  最佳美食餐厅
+</view>
+<view class="head-title">
+    <!--自己滚动的组件-->
+    <view class="title">50以下</view>
+    <view class="title">50-100</view>
+    <view class="title">100-200</view>
+    <view class="title">200以上</view>
+</view>
+<view>
+  <view class="food1">
+    <view class="rank">排名</view>
+    <view class="dian">餐厅</view>
+    <view class="el">评价</view>
+    <view class="price">价格</view>
+  </view>
+</view>
+<view class="food-rank">
+  <view class="food">
+    <view class="rank">TOP1</view>
+    <view class="dian">{{rest1}}</view>
+    <view class="el">{{evaluate1}}</view>
+    <view class="price">{{price1}}</view>
+  </view>
+  <view class="food">
+    <view class="rank">TOP2</view>
+    <view class="dian">{{rest2}}</view>
+    <view class="el">{{evaluate2}}</view>
+    <view class="price">{{price2}}</view>
+  </view>
+ <view class="food">
+    <view class="rank">TOP3</view>
+    <view class="dian">{{rest3}}</view>
+    <view class="el">{{evaluate3}}</view>
+    <view class="price">{{price3}}</view>
+  </view>
+ <view class="food">
+    <view class="rank">TOP4</view>
+    <view class="dian">{{rest4}}</view>
+    <view class="el">{{evaluate4}}</view>
+    <view class="price">{{price4}}</view>
+  </view>
+  <view class="food">
+    <view class="rank">TOP5</view>
+    <view class="dian">{{rest5}}</view>
+    <view class="el">{{evaluate5}}</view>
+    <view class="price">{{price5}}</view>
+  </view>
+</view>
