@@ -5,7 +5,31 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    foods: [{
+      message: '小米米大碗饭',
+    }, {
+      message: '玫瑰园自选高汤面',
+    },{
+      message:'妈妈的饭',
+    },{
+      message:'爸爸的饭',
+    },{
+      message:'鱼叔烤鱼饭'
+    },{
+      message: '玫瑰园自选高汤面',
+    },{
+      message: '玫瑰园自选高汤面',
+    },{
+      message: '玫瑰园自选高汤面',
+    },{
+      message: '玫瑰园自选高汤面',
+    },{
+      message: '玫瑰园自选高汤面',
+    },{
+      message: '玫瑰园自选高汤面',
+    },{
+      message: '玫瑰园自选高汤面',
+    }]
   },
 
   /**
@@ -54,7 +78,7 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    
   },
 
   /**

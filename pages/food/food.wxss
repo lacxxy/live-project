@@ -1,1 +1,26 @@
 /* pages/food/food.wxss */
+page {
+  height: 100%;
+}
+#title {
+  height: 30%;
+  /* padding-top: 5%; */
+  background: black;
+  text-align: center;
+  font-size: 70rpx;
+  color: white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#content {
+  padding-top: 5%;
+  height: 70%;
+  background:rgb(238,236,237);
+}
+.foods {
+  padding-left:200rpx;
+  font-size: 35rpx;
+  height: 10%;
+  background:rgb(238,236,237);
+}

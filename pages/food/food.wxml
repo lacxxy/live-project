@@ -1,2 +1,8 @@
 <!--pages/food/food.wxml-->
-<text>pages/food/food.wxml</text>
+<!-- <text>pages/food/food.wxml</text> -->
+<view id="title">最佳美食聚集地</view>
+<view id="content">
+  <view class="foods" wx:for="{{foods}}">
+    {{item.message}}
+  </view>
+</view>
